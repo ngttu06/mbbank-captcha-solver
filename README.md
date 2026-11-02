@@ -13,6 +13,16 @@ Repository cung cấp mô hình CNN **đã được huấn luyện để nhận 
 - Không có số liệu benchmark độc lập trong repo; không bảo đảm mọi ảnh đều được nhận dạng chính xác hoặc mô hình vẫn phù hợp nếu định dạng CAPTCHA thay đổi.
 - Dataset huấn luyện không được đính kèm. `mbbank/MAIN.py` chứa mã mô hình và mã huấn luyện; không cần chạy file này để dùng API.
 
+## Nguồn dữ liệu và kết quả huấn luyện
+
+Theo thông tin do chủ repository cung cấp:
+
+- **Dataset huấn luyện:** [MBBank Captcha Images — cookiegmvn trên Kaggle](https://www.kaggle.com/datasets/cookiegmvn/mbbank-captcha-images).
+- **Ngày huấn luyện:** 02/11/2026 (ngày 2 tháng 11 năm 2026).
+- **Độ chính xác được báo cáo của mô hình:** **99.95%**.
+
+Repo hiện chưa đính kèm báo cáo đánh giá, cách chia tập train/validation/test hoặc định nghĩa metric (đúng toàn bộ CAPTCHA hay đúng từng ký tự). Vì vậy, con số trên là kết quả được chủ repository cung cấp, chưa được kiểm chứng độc lập và không bảo đảm độ chính xác tương tự trên dữ liệu mới.
+
 ## Chạy bằng Docker
 
 Cần Docker với Linux containers. Từ thư mục gốc của repo, build image CPU `linux/amd64`:
