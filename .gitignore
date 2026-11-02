@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+/acb/recaptchaenv/
+/mbbank/mbbankenv/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets
+/DEPLOYMENT.md
+/deploy/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# macOS
+.DS_Store

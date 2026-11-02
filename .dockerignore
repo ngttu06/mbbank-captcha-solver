@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!mbbank/
+!mbbank/requirements.txt
+!mbbank/CONFIG.py
+!mbbank/MAIN.py
+!mbbank/datasets.py
+!mbbank/server.py
+!mbbank/model.pth
